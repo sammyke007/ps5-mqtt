@@ -1,4 +1,4 @@
-version: 1.3.0
+version: 1.2.2
 slug: ps5_mqtt
 name: PS5 MQTT
 description: Control Sony PlayStation 5 devices via MQTT
@@ -43,7 +43,6 @@ schema:
       preferred_ps5: str?
       preferred_ps4: str?
   logger: str?
-  device_discovery_broadcast_address: str?
   device_check_interval: int
   device_discovery_interval: int
   account_check_interval: int
